@@ -1,4 +1,4 @@
-# Share File Like FTP Via HTTP using spring boot.
+# Share File Explorer Like FTP Via HTTP using spring boot.
   
   
 # 1 - Expose 8080 port to wifi/hotspot network.
