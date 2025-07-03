@@ -22,7 +22,8 @@ Below command for enable Fedora to expose 8080 port for connected wifi or hotspo
 # 3 -  Get Device IP
  
 Get ip 4 from terminal
->ip a
+>ip a  
+
 ![image](https://github.com/user-attachments/assets/8723631d-2597-4a7d-b085-30128884c6ee)
 
 # 4 - Access from browser
