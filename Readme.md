@@ -27,3 +27,6 @@ Get ip4
   http://192.168.50.144:8080/
 
 ![image](https://github.com/user-attachments/assets/3d65c306-ec7e-4672-91cf-4da797fdf7a5)
+
+_______________________
+Thank you!
