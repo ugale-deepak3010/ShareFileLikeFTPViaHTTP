@@ -1,7 +1,5 @@
-{"properties": [
-  {
-    "name": "folderPath",
-    "type": "java.lang.String",
-    "description": "A description for a 'folderPath'"
-  }
-]}
+{"properties": [{
+  "name": "folder-path",
+  "type": "java.lang.String",
+  "description": "A description for 'folder-path'"
+}]}

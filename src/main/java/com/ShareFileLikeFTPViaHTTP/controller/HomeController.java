@@ -26,9 +26,8 @@ import jakarta.servlet.http.HttpServletRequest;
 @RequestMapping("")
 public class HomeController {
 	
-	@Value("${folderPath}")
+	@Value("${folder-path}")
     private String folderPath;
-
 	
 
 	@GetMapping(value = { "/", "/**" })
@@ -76,7 +75,7 @@ public class HomeController {
 					.header(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + file.getName() + "\"")
 					.body(resource);
 		} else {
-			return ResponseEntity.notFound().build();
+			return ResponseEntity.ok("Issue with file path configured. Please check access or location: "+folderPath);
 		}
 	}
 
