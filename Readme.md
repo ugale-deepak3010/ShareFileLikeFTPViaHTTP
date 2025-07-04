@@ -13,10 +13,10 @@ Below command for enable Fedora to expose 8080 port for connected wifi or hotspo
 # 2 - configure this app
   
   
-  set folderPath in properties file.  
+  set folderPath in application.properties file.  
   
   in my case:  
->folderPath=/run/media/dipakugale/New Volume/$ AccessFromHere/SpringBootAws  
+>folder-path=/run/media/dipakugale/New Volume/$ AccessFromHere/SpringBootAws  
   
   
 # 3 -  Get Device IP
